@@ -52,10 +52,7 @@
     display: grid;
     grid-template-columns: 1.2fr 1fr;
 }
-.container .bottom .images{
-    /* background-color: aliceblue */
-    
-}
+
 
 .container .bottom .text .txt{
     /* background-color: red; */

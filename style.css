@@ -56,12 +56,7 @@
     /* background-color: aliceblue */
     
 }
-.container .bottom .text{
-    
-    /* background-color: yellow; */
 
-
-}
 .container .bottom .text .txt{
     /* background-color: red; */
     position: relative;
@@ -89,7 +84,7 @@
 }
 img{
     position: absolute;
-    bottom: 350px;
+    top: 180px;
     left: 50px;
 }
 .container .bottom .images .logo{
@@ -111,6 +106,6 @@ img{
     height: 400px;
 }
 .container .bottom .images:hover .img{
-      height: 250px;
-      left: 240px;
+      height: 220px;
+      left: 220px;
 }

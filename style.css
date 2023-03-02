@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background:linear-gradient(to right,rgb(95, 178, 205),white, white);
+    width: 100%;
+    height: 100vh;
+
+}
+.container .top{
+    position: relative;
+    /* background-color: red; */
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+}
+.container .top ul{
+    position: absolute;
+    right: 150px;
+    padding: 5px;
+    /* justify-content: center; */
+}
+
+.container .top ul li{
+   display: inline-block;
+   /* float: right; */
+   padding: 20px;
+   margin-right:20px ;
+}
+.container .top ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    color: black;
+    transition: 0.7s;
+
+}
+.container .top ul li a:hover{
+    color: crimson;
+    font-size: 1.2em
+
+}
+.container .bottom{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+.container .bottom .images{
+    /* background-color: aliceblue */
+    
+}
+.container .bottom .text{
+    
+    /* background-color: yellow; */
+
+
+}
+.container .bottom .text .txt{
+    /* background-color: red; */
+    position: relative;
+    top: 180px;
+    padding: 50px;
+}
+.container .bottom .text .txt h3{
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 2.5px;
+    margin-bottom: 30px;
+}
+.container .bottom .text .txt h3 span{
+    color:rgb(216, 145, 11);
+}
+.container .bottom .text .txt p{
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: italic;
+    margin: 5px;
+}
+.container .bottom .images{
+    position: relative;
+}
+img{
+    position: absolute;
+    bottom: 350px;
+    left: 50px;
+}
+.container .bottom .images .logo{
+    position: absolute;
+    top:80px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.container .bottom .images .img{
+    border-radius: 50%;
+    left: 200px ;
+    transform: translateX(-100px);
+    transition: 0.5s;
+}
+.container .bottom .images:hover .logo{
+    opacity: 1;
+    left: 60px ;
+    top: 50px ;
+    height: 400px;
+}
+.container .bottom .images:hover .img{
+      height: 250px;
+      left: 240px;
+}
